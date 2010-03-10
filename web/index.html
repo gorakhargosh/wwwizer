@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>WWWizer: redirects naked domains</title>
+        <style type="text/css">
+            body {
+                padding: 2em;
+                font-size: 100%;
+                font-family: sans-serif;
+            }
+            p {
+                font-size: 1.7em;
+                margin-bottom: 1em;
+            }
+            p.small {
+                font-size: 1.1em;
+            }
+            p.bump {
+                margin-top: 2em;
+            }
+            .b {
+                color: #00e;
+            }
+            .g {
+                color: #0c0;
+            }
+            .r {
+                color: #a00;
+            }
+            .logo {
+                font-weight: bold;
+            }
+            .w1 {
+                color: #0039b6;
+                
+            }
+            .w2 {
+                color: #c41200;
+            }
+            .w3 {
+                color: #30a72f;
+            }
+        </style>
+	</head>
+	<body>
+	    <p>Hello!</p>
+        <p class="bump"><span class="logo">WWWizer</span> &ndash; is a redirector from <span class="b">example.com</span> to <span class="g">www.</span><span class="b">example.com</span></p>
+        <p>Service is free, there is no need to signup or leave your email.</p>
+        <p>Point your <span class="b">"naked" domain</span> (without www) <span class="b">A-record to 174.129.25.170</span></p>
+        <p>And that is all you need to do.</p>
+        <p class="small bump">But remember one thing &ndash; there is no warranty of any kind. And in case of abuse access may be blocked on per domain-name basis.</p>
+        <p class="small">If you wonder why it exists: <a href="http://code.google.com/appengine/">Google App Engine</a> does not support "naked" domains, so you need something to redirect people from www-less url to one that is actually works. That's why. <a href="http://code.google.com/p/googleappengine/issues/detail?id=777">See here</a> for more info.</p>
+        <p class="small">When responding with a redirect (301 moved permanently) WWWizer just adds www to the url (if it is not present there). So full path is preserved, all GET parameters (stuff after "?") also left intact. POST requests must also work.</p>
+        <p class="small">If you have any questions, <a href="mailto:help@wwwizer.com">ask them</a>!</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3142081-6");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch(err) {}</script>
+	</body>
+</html>
